@@ -176,15 +176,11 @@ public:
  */
 int main()
 {
-    string name = "Berlin";
-    int age = 23;
-    string id = "22-49947-3";
+    string name;
+    int age;
+    string id;
 
-    // string name;
-    // int age;
-    // string id;
-
-    // createStudent(name, age, id);
+    createStudent(name, age, id);
 
     /*
      *Student Object is dynamically allocated with new
